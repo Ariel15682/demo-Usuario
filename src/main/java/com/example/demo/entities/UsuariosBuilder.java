@@ -1,15 +1,11 @@
 package com.example.demo.entities;
 
-// Es ejemplo, entities no es el mejor lugar para poner para poner esta clase. Las clases patrones siempre comienzan con
-//entidad y siguen con el nombre del patron.
 public class UsuariosBuilder {
 
     private final Usuario usuario = new Usuario();
 
     private UsuariosBuilder() { }
 
-    //obligatorio el paso de nombreUsuario
-    //Los atributos se pueden inicializar aqui o en la entidad para que no de error el builder
     public UsuariosBuilder(String nombreUsuario){
         usuario.nombre = "";
         usuario.apellidos = "";
