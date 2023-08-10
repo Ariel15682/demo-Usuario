@@ -25,9 +25,9 @@ public class UsuariosController {
     public List<Usuario> listarTodos() { return usuariosService.listarUsuarios();  }
 
     @GET
-    @Path("/usuarios/{nombre}")
+    @Path("/usuarios/{nombreUsuario}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Usuario listarUno(@PathParam("nombre") String nombre) { return usuariosService.obtenerUsuario(nombre);  }
+    public Usuario listarUno(@PathParam("nombreUsuario") String nombreUsuario) { return usuariosService.obtenerUsuario(nombreUsuario);  }
 
     @POST
     @Path("/usuarios")
@@ -42,9 +42,9 @@ public class UsuariosController {
     }
 
     @DELETE
-    @Path("/usuarios/{nombre}")
+    @Path("/usuarios/{nombreUsuario}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response borrarUsuario(@PathParam("nombre") String nombre) {
+    public Response borrarUsuario(@PathParam("nombreUsuario") String nombre) {
         usuariosService.borrarUsuario(nombre);
 
         return Response.ok().build();
