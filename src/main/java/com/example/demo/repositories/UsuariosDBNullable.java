@@ -5,7 +5,6 @@ import com.example.demo.entities.Usuario;
 import java.util.ArrayList;
 
 public class UsuariosDBNullable extends UsuariosDB {
-    ArrayList<Usuario> usuarios = new ArrayList<>();
 
     @Override
     public ArrayList<Usuario> obtener() {
