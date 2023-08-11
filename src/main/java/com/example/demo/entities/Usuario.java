@@ -1,5 +1,14 @@
 package com.example.demo.entities;
 
+/**
+ * La clase Usuarios implementa diversos metodos para la gestion del modelo "Usuario". La misma contiene sus atributos,
+ * y metodo toString(). No posee de metodos getters & setters (inmutable).
+ *
+ * @see
+ *
+ * @since 19/05/2023
+ */
+
 public class Usuario {
     public String nombreUsuario = "";
     public String nombre = "";

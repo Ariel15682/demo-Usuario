@@ -11,7 +11,7 @@ import java.util.ArrayList;
 @Service
 public class UsuariosService {
 
-    String tipoDeBBDD = "memoria";
+    String tipoDeBBDD = "fichero";
     UsuariosDBFactory usuariosDBFactory = new UsuariosDBFactory(tipoDeBBDD);
     UsuariosDB usuariosDB= usuariosDBFactory.getDatabaseInstance();
 
