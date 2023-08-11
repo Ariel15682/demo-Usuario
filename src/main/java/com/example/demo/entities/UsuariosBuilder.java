@@ -3,7 +3,7 @@ package com.example.demo.entities;
 import org.springframework.lang.NonNull;
 
 /**
- * La clase usuariosBuilder implementa  implementa el patron "builder" para la creacion de un objeto Usuario con ciertas
+ * La clase UsuariosBuilder implementa  implementa el patron "builder" para la creacion de un objeto Usuario con ciertas
  * caracteristicas. En el caso de no completar los campos de nombre, apellidos, email autocompleta con un valor por
  * defecto "sin nombre", "sin apellido"...
  */
