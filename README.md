@@ -68,8 +68,5 @@ CRUD y los test para cada una de las "request"
 ## .gitignore
 Creado con Toptal
 
-## Lombok
-Se implementa lombok al proyecto
-
 ## API de Swagger
 
