@@ -63,5 +63,8 @@ Un fichero "usuarios.txt" que hace las veces de "base de datos" segun opcion esc
 Se adjunta coleccion de Postman (RESTful API Usuarios1 CRUD.postman_collection) con el
 CRUD y los test para cada una de las "request"
 
+## .gitignore
+Creado con Toptal
+
 ## API de Swagger
 
