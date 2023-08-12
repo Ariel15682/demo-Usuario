@@ -1,4 +1,6 @@
 # demo-Usuario
+Este proyecto consta de 2 ramas, la rama main y la rama develop. En la ultima es en la que se 
+desarrolla siguiendo los preceptos de agile para posteriormente hacer un merge en main
 
 REST creada en Jersey con los metodos CRUD (GET, POST, DELETE) basicos para la creacion, 
 borrar, y listar usuarios (todos y filtrando por nombre de usuario. La misma fue desarrollada
