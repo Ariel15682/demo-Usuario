@@ -1,6 +1,7 @@
 package com.example.demo.entities;
 
-import org.springframework.lang.NonNull;
+import jakarta.validation.constraints.NotBlank;
+
 
 /**
  * La clase UsuariosBuilder implementa  implementa el patron "builder" para la creacion de un objeto Usuario con ciertas
@@ -23,7 +24,7 @@ public class UsuariosBuilder {
 
     private UsuariosBuilder() { }
 
-    public UsuariosBuilder(@NonNull String nombreUsuario){
+    public UsuariosBuilder(@NotBlank String nombreUsuario){
 //        usuario.nombre = "";
 //        usuario.apellidos = "";
 //        usuario.email = "";
